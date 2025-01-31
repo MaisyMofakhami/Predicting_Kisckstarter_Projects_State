@@ -29,6 +29,9 @@ The findings provide key insights into project planning, goal-setting, and engag
   - **Precision**: 70.5%
   - **Recall**: 87.6%
   - **F1 Score**: 78.1%
+- Extracted the top 20 features based on their importance in random forest model
+- ![image](https://github.com/user-attachments/assets/3e2daf0a-536f-43e5-86ff-dc71a9f8f77a)
+   
 - Key findings from the model:
   - Projects with very high funding goals are less likely to succeed.
   - Shorter preparation (creation-to-launch) and urgency (launch-to-deadline) positively impact success.
@@ -79,7 +82,6 @@ Cluster interpretations:
 
 ## Tools and Libraries Used
 
-- **Python**: Primary programming language for analysis.
 - **Pandas**: Data preprocessing, manipulation, and feature engineering.
 - **NumPy**: Numerical computations.
 - **Scikit-learn**: Implemented classification models (logistic regression and Random Forest).
